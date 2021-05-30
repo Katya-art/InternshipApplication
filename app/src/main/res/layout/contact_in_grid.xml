@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:id="@+id/contact_image_in_grid"/>
+
+    <TextView
+        android:id="@+id/badge_notification_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/presence_online"
+        android:layout_alignEnd="@id/contact_image_in_grid"
+        android:layout_alignBottom="@id/contact_image_in_grid"
+        android:visibility="invisible"/>
+</RelativeLayout>

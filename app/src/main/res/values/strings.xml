@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Internship Application</string>
+    <string name="details">Details</string>
+    <string name="actions">Actions</string>
+    <string name="show_as_grid">Show as grid</string>
+    <string name="show_as_list">Show as list</string>
+    <string name="simulate_changes">Simulate changes</string>
+</resources>
